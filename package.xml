@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>IFlair_EasyCacheCleaner</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license>GNU General Public License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Single click cache cleaner</summary>
+    <description>No hassle of selecting each cache, easy to use, just click on spark on header to clear all of the caches.</description>
+    <notes>Stable easy cache cleaner extension</notes>
+    <authors><author><name>IFlair Web Technologies</name><user>iflair_web_tech</user><email>info@iflair.com</email></author></authors>
+    <date>2016-12-28</date>
+    <time>14:36:23</time>
+    <contents><target name="magecommunity"><dir name="IFlair"><dir name="EasyCacheCleaner"><dir name="Block"><dir name="Adminhtml"><dir name="Page"><file name="Header.php" hash="e4dbe59df3446422e1ac2808674c39b3"/></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="CacheController.php" hash="f7bb5423b5e08b2b05d9881370750427"/></dir></dir><dir name="etc"><file name="config.xml" hash="51503c1de8a71a8ce77b8ca96ddb7120"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="easycachecleaner"><dir name="page"><file name="header.phtml" hash="e5b18022daa96f81d5cd1b06e843c916"/><file name="header.phtml" hash="e5b18022daa96f81d5cd1b06e843c916"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="IFlair_EasyCacheCleaner.xml" hash="c03cd1e78a844ee479eb1dcbfd752056"/></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="easycachecleaner"><dir><dir name="images"><file name="flash.png" hash="82bc3e25ff68c1dca918c1899ebadc47"/></dir></dir><dir name="images"><file name="flash.png" hash="82bc3e25ff68c1dca918c1899ebadc47"/><file name="flash.png" hash="82bc3e25ff68c1dca918c1899ebadc47"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.6.0</max></php></required></dependencies>
+</package>

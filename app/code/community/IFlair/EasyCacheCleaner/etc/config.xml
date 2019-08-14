@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <IFlair_EasyCacheCleaner>
+      <version>1.0.1</version>
+    </IFlair_EasyCacheCleaner>
+  </modules>
+  <global>
+    <blocks>
+    	<adminhtml>
+            <rewrite>
+                <page_header>IFlair_EasyCacheCleaner_Block_Adminhtml_Page_Header</page_header>
+            </rewrite>
+        </adminhtml>
+		<easycachecleaner>
+			<class>IFlair_EasyCacheCleaner_Block</class>
+		</easycachecleaner>
+	</blocks>
+  </global>
+  <admin>
+	<routers>
+	  <easycachecleaner>
+	    <use>admin</use>
+		<args>
+		  <module>IFlair_EasyCacheCleaner</module>
+		  <frontName>easycachecleaner</frontName>
+		</args>
+	  </easycachecleaner>
+	</routers>
+  </admin>
+</config> 

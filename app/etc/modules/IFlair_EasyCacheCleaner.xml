@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <IFlair_EasyCacheCleaner>
+            <active>true</active>
+            <codePool>community</codePool>
+        </IFlair_EasyCacheCleaner>
+    </modules>
+</config>
