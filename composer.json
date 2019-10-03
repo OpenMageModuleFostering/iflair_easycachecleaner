@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/IFlair_EasyCacheCleaner",
+    "name": "OpenMageModuleFostering\/IFlair_EasyCacheCleaner",
     "type": "magento-module",
     "license": "GNU-General-Public-License",
     "homepage": "",
     "description": "Single click cache cleaner",
     "authors": [
-    {
-        "name": "IFlair Web Technologies",
-        "email": "info@iflair.com"
-    }
-],
+        {
+            "name": "IFlair Web Technologies",
+            "email": "info@iflair.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
